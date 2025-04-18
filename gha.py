@@ -1,7 +1,6 @@
 import numpy as np
 
 class GHA(object):
-    
     def __init__(self, n_components=1, eta=0.001, n_epochs=100):
         self.eta = eta
         self.n_components = n_components
